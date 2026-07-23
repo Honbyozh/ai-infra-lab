@@ -160,12 +160,12 @@ nvidia-smi --query-gpu=name,driver_version,memory.total,memory.free --format=csv
 以下各项完成后，才正式开始 W01-D1：
 
 - [x] 当前选定无 NVIDIA GPU 的 CPU/Mock 路线；GPU 专属项目延后补验。
-- [ ] Docker 可运行普通容器和带 CPU/内存限制的容器。
-- [ ] 仓库内 `.venv` 使用 Python 3.11/3.12，且可从锁文件重建。
-- [ ] Linux 诊断基础工具检查无缺项。
-- [ ] 已创建 `docs/env-baseline.md`，记录宿主机、WSL、CPU、内存、磁盘和工具版本。
-- [ ] 已准备 `.gitignore`、`.env.example` 和延后验收文档。
-- [ ] 已明确模型/数据/实验产物目录与磁盘告警线。
-- [ ] 已验证 Git 备份或远端可用，且仓库中没有密钥和大模型权重。
+- [x] Docker 可运行普通容器和带 CPU/内存限制的容器。
+- [x] 仓库内 `.venv` 使用 Python 3.12，且可由 `uv` 重建。
+- [x] Linux 诊断基础工具检查无缺项。
+- [x] 已创建 `docs/env-baseline.md`，记录宿主机、WSL、CPU、内存、磁盘和工具版本。
+- [x] 已准备 `.gitignore`、`.env.example` 和延后验收文档。
+- [x] 已明确模型/数据/实验产物目录与磁盘告警线。
+- [x] 已验证 Git 远端可用，且仓库中没有密钥和大模型权重。
 
 未满足的门禁不要靠口头记忆跳过；要么先补齐，要么在延后验收文档中写明原因、替代方案、补验条件和日期。

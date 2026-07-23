@@ -43,12 +43,12 @@
 
 任务：
 
-- [ ] 选择并安装一种容器方案：Docker Desktop WSL Integration 或 WSL 内 Docker Engine
-- [ ] 验证普通容器以及 CPU/内存限制
-- [ ] 使用 `uv` 创建 Python 3.12 `.venv`
-- [ ] 安装 `procps`、`iproute2`、`lsof`、`sysstat`、`curl`、`jq`、`stress-ng`
-- [ ] 运行 `scripts/check_lab_preflight.sh`
-- [ ] 将检查输出保存到 `artifacts/preflight/2026-07-24.txt`，该目录只保留在实验机；在环境基线中记录摘要
+- [x] 选择并安装一种容器方案：WSL 内 Docker Engine
+- [x] 验证普通容器以及 CPU/内存限制
+- [x] 使用 `uv` 创建 Python 3.12 `.venv`
+- [x] 安装 `procps`、`iproute2`、`lsof`、`sysstat`、`curl`、`jq`、`stress-ng`
+- [x] 运行 `scripts/check_lab_preflight.sh`
+- [x] 将检查输出保存到 `artifacts/preflight/2026-07-24.txt`，该目录只保留在实验机；在环境基线中记录摘要
 
 核心命令：
 
@@ -128,7 +128,7 @@ bash scripts/check_lab_preflight.sh
 | 日期 | 状态 | 实际用时 | 证据 | 阻塞/下一步 |
 |---|---|---:|---|---|
 | 2026-07-23 | 进行中 | 待填写 | `docs/env-baseline.md`、`.gitignore`、`.env.example`、`scripts/check_lab_preflight.sh` | 待完成双机 push/pull 和实验端路径确认 |
-| 2026-07-24 | 未开始 | 0 min | - | - |
+| 2026-07-24 | 通过 | 待补记 | `artifacts/preflight/2026-07-24.txt`、`docs/env-baseline.md` | Docker Hub 首次拉取出现一次 EOF，重试成功；Hugging Face 网络待 7 月 26 日冒烟验证 |
 | 2026-07-25 | 未开始 | 0 min | - | - |
 | 2026-07-26 | 未开始 | 0 min | - | - |
 
