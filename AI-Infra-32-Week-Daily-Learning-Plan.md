@@ -2,7 +2,7 @@
 
 > 适用背景：已有后端开发经验，了解一些 Agent；目标转向 AI Platform、Model Serving 与 LLM Inference，并逐步深入 GPU、NCCL、CUDA/Triton。
 >
-> 时间基准：共 32 周、224 天、384 小时。Day 1 固定为周一；可从任意一个周一启动。
+> 时间基准：共 32 周、224 天、384 小时。当前计划启动日为 2026-07-27（周一）；当天可以先完成启动门禁，再继续 W01-D1，准备耗时不计入 384 小时。
 
 ## 1. 路线与最终目标
 
@@ -107,7 +107,7 @@ ai-infra-lab/
 #### 第 1 周：Linux 系统诊断与 LLM 推理基础
 
 **本周目标：** 建立进程、内存、I/O、容器资源和 Transformer 推理的共同心智模型，能观察一个小模型从文本输入到逐 Token 输出的过程。  
-**本周交付物：** `docs/w01-linux-llm-basics.md`、`serving/run_local_model.py`、`docs/env-baseline.md`、一组可复现的系统观察记录。
+**本周交付物：** `docs/w01-linux-llm-basics.md`、`serving/run_local_model.py`、正式启动时重新生成的 `docs/env-baseline.md`、一组可复现的系统观察记录。
 
 | 天 | 时长 | 学习任务 | 具体操作步骤 | 检测与验收 |
 |---|---:|---|---|---|
@@ -623,21 +623,7 @@ ai-infra-lab/
 
 ## 8. 每周复盘模板
 
-```markdown
-# Week XX Review
-
-- 计划时间：12 h；实际时间：__ h
-- 完成任务：__/7 天
-- 本周提交：__ 个；测试：__ 项
-- 本周最重要的三个结论：
-  1. 
-  2. 
-  3. 
-- 一个失败实验及原因：
-- 一个仍无法解释的问题：
-- 下周风险与调整：
-- 里程碑状态：绿 / 黄 / 红
-```
+每周从 `docs/templates/weekly-review.md` 创建复盘，统一保存为 `docs/reviews/wNN.md`。周复盘是周状态与周总结的事实记录，`docs/progress.md` 只保留汇总和链接。
 
 ## 9. 最终作品集验收清单
 
