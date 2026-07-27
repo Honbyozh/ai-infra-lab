@@ -1,0 +1,18 @@
+schema_version: 1
+machine_id: replace-with-learning-machine-id
+role: learning
+description: 学习机，只进行阅读、知识笔记、设计、复盘和文档维护
+
+capabilities:
+  documentation: true
+  knowledge_learning: true
+  architecture_design: true
+  code_review: true
+  source_code_implementation: false
+  environment_configuration: false
+  service_execution: false
+  engineering_experiments: false
+  benchmarks: false
+  model_downloads: false
+
+unsupported_task_policy: skip_and_leave_pending

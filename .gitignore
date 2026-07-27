@@ -10,6 +10,7 @@ __pycache__/
 .env
 .env.*
 !.env.example
+.machine.local.yaml
 
 # Models, datasets, caches and large local artifacts
 models/

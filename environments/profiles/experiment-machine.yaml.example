@@ -1,0 +1,18 @@
+schema_version: 1
+machine_id: replace-with-experiment-machine-id
+role: experiment
+description: 实验机，可进行文档、代码、环境配置、服务运行、实验和压测
+
+capabilities:
+  documentation: true
+  knowledge_learning: true
+  architecture_design: true
+  code_review: true
+  source_code_implementation: true
+  environment_configuration: true
+  service_execution: true
+  engineering_experiments: true
+  benchmarks: true
+  model_downloads: true
+
+unsupported_task_policy: report_only_if_blocking

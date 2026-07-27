@@ -1,5 +1,7 @@
 # AI Infra 32 周逐日学习计划
 
+> **状态：暂停。** 当前先执行 [`docs/ai-infra-landscape-orientation.md`](docs/ai-infra-landscape-orientation.md) 建立 AI Infra 全景并体验候选方向。本文件仅作为历史候选材料，不是当前任务来源；完成方向选择后再决定是否重用其中内容。
+
 > 适用背景：已有后端开发经验，了解一些 Agent；目标转向 AI Platform、Model Serving 与 LLM Inference，并逐步深入 GPU、NCCL、CUDA/Triton。
 >
 > 时间基准：共 32 周、224 天、384 小时。当前计划启动日为 2026-07-27（周一）；当天可以先完成启动门禁，再继续 W01-D1，准备耗时不计入 384 小时。
